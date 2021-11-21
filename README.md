@@ -4,6 +4,18 @@ For now all compilation and installation steps are specified in the following [p
 
 This will hopefully change in future.
 
+## Potential compilation errors & fixes
+**Wrong opencv version**
+
+It has been reported that the new opencv release causes a problem. Downgrade your opencv package to version 4.5.3.56.
+
+**Missing python packages**
+
+To fully compile and run the code you may also need to install other python packages:
+- tabulate (install from the **command line with sudo/administrative privilages**)
+- wmi
+- imutils
+
 
 # Branches
 

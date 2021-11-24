@@ -40,6 +40,18 @@ MSBUILD : error MSB1003: Specify a project or solution file. The current working
 
 Pipenv - `pip install --user pipenv`
 
+To test if pipenv was installed correctly:
+
+Run this in powershell
+
+```
+pipenv --version
+```
+You should get something like this:
+```
+pipenv, version 2021.11.15
+```
+
 
 
 # Branches

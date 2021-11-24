@@ -21,7 +21,7 @@ To fully compile and run the code you may also need to install other python pack
 ## Dependencies
 There are a few things that you will need to install before proceeding
 
-Visual Studio Build Tools 2019 - [Download](https://my.visualstudio.com/Downloads?q=visual%20studio%202019&wt.mc_id=o~msft~vscom~older-downloads)
+Visual Studio Build Tools 2019 - [Download](https://my.visualstudio.com/Downloads?q=build%20tools%202019&wt.mc_id=o~msft~vscom~older-downloads)
 
 To test if visual studio build tools are installed correctly:
 

@@ -1,4 +1,4 @@
-# Setting up
+# Setting up (Old - should definitely work)
 
 For now all compilation and installation steps are specified in the following [pdf](https://github.com/doctordeano/MotionInput/blob/main/version3.0/Compilation%20Instructions%20%26%20Libraries%20required.pdf)
 
@@ -15,6 +15,31 @@ To fully compile and run the code you may also need to install other python pack
 - tabulate (install from the **command line with sudo/administrative privilages**)
 - wmi
 - imutils
+
+# Setting up (New - dunno if works)
+
+There are a few things that you will need to install before proceeding
+
+Visual Studio Build Tools 2019 - [Download](https://my.visualstudio.com/Downloads?q=visual%20studio%202019&wt.mc_id=o~msft~vscom~older-downloads)
+
+To test if visual studio build tools are installed correctly:
+
+Run this in powershell
+
+```
+msbuild
+```
+You should get this
+```
+Microsoft (R) Build Engine version 4.8.4084.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
+```
+
+Pipenv - `pip install --user pipenv`
+
 
 
 # Branches

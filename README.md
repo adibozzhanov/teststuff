@@ -18,6 +18,7 @@ To fully compile and run the code you may also need to install other python pack
 
 # Setting up (New - dunno if works)
 
+## Dependencies
 There are a few things that you will need to install before proceeding
 
 Visual Studio Build Tools 2019 - [Download](https://my.visualstudio.com/Downloads?q=visual%20studio%202019&wt.mc_id=o~msft~vscom~older-downloads)
@@ -52,6 +53,11 @@ You should get something like this:
 pipenv, version 2021.11.15
 ```
 
+To install all dependencies navigate to the version3 folder run this:
+
+```
+pipenv install
+```
 
 
 # Branches
